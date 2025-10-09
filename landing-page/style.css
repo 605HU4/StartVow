@@ -86,6 +86,7 @@ h3 {
 a {
   color: hsl(196, 100%, 46%);
   text-underline-offset: 2px;
+  text-decoration-skip-ink: auto;
   &:not(:is(:hover, :focus)) {
     text-decoration-color: color-mix(in srgb, currentColor, transparent 50%);
   }
@@ -102,4 +103,13 @@ hr {
 
 :target {
   scroll-margin-block: 5ex;
+}
+
+article {
+  padding-block: 2em;
+}
+
+time {
+  font-size: 0.666rem;
+  color: hsl(0, 0%, 75%);
 }
