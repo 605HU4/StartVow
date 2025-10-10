@@ -6,6 +6,7 @@
 
 html {
   font: clamp(1.333rem, 1rem + 0.666vw, 2rem) / 1.4 system-ui, sans-serif;
+  font-synthesis: none;
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
